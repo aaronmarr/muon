@@ -1,0 +1,18 @@
+{
+  "name": "muon",
+  "version": "0.1.0",
+  "description": "Super-simple design token generator for Sass projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass scss -o css",
+    "scss:watch": "node-sass --watch scss -o css",
+    "scss:min": "node-sass --include-path scss scss/muon.scss  css/muon.min.css --output-style compressed",
+    "scss:build": "npm run scss && npm run scss:min"
+  },
+  "author": "Aaron Marr",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
