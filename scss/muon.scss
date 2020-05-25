@@ -836,14 +836,4 @@ $muon-config: (
 
 // Initialise Muon
 @include muon();
-
-
-// Demo / debug
-.action-buttons {
-  @include font-size('base');
-  @include spacing('padding-top', 'lg');
-  @include color('background', 'gray-1');
-
-  color: red;
-}
   

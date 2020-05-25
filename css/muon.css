@@ -1909,9 +1909,3 @@
 
 .rounded-full {
   border-radius: 9999px; }
-
-.action-buttons {
-  font-size: 1rem;
-  padding-top: 2rem;
-  background: #f1f3f5;
-  color: red; }
