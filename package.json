@@ -1,6 +1,6 @@
 {
   "name": "muon",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Super-simple design token generator for Sass projects",
   "main": "index.js",
   "scripts": {
